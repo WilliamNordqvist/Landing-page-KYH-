@@ -1,0 +1,20 @@
+William Nordqvist Landing page mini.
+
+1. Efter att ha kollat andra landing page på nätet visste jag att jag ville ha en background bild längst upp som ska ta upp ganska stor yta. 
+2.Googlade efter "landing page backgrounds" och hittade en bra. 
+3. Gjorde en stor div och gav den class "Container" för att täcka upp hela sidan. 
+4. skapa en Background div i Container där jag sedan la in bilde in CSS.
+5. stylade nackground div med andra bra attribut. 
+6. I background skapde jag en div "info" och la en H1, a, p, som skulle visas tillsammans på förstasidan. 
+7."a" gjorde jag om en en button. 
+8. stylade info diven i CSS och gjorde "a" till en button.
+9. La en in Hover effekt på button.
+
+10. Gjorde en content 2 div som skulle representera den andra avdelningen in Containern.
+11. La in en ljusare grå färg som bakgrunds bild i content2 diven.
+12. skapde en div för bilder där jag ville lägga in bilder på lärarna. 
+13.Skapade 3 divar i "bilder" diven. En för varje lärare. 
+14. I varje lära div la jag en img, p, i. 
+15. 1. en bild på läraren 2. Namn och yrke 3. en mail icon.
+16. stylade bilderna i css och la in border radius funktion för att dölja dem vita kanterna. 
+17. la in display: flex; i content2 diven för att få bilderna ligga horisontellt

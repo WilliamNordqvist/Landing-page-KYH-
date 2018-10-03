@@ -1,0 +1,13 @@
+Jag hade en form sedan Mini2 inlagt så jag gjorde inte så mycket ändringar.
+Ändra i min JS fil och gjorde form synlig genom att klicka på "ansök" knappen istället för dem små mail iconerna. 
+Jag kollade runt mycket på google om vilka input types det fanns och la där efter till radio butten som jag använde gör "gender". Samt en input number som jag hade för ålder. Input "file" där man kan lägga upp CV och en input "checkbox för att godkänna GDPR. Efter det gjorde jag alla inputs "required för att kunna submita.  
+För syns skull la jag öven in en footer för att jag tycker det vart snyggare att gömma Formen mellan två element istället för att ha den längst ner på sidan. 
+
+Efter detta skapade jag en ny HTML sida som nästan ser identisk ut till Landing pagen som jag döpte till aplied.html. Enda skillnaden är att Apllied sidan säger "tack för din ansökan". Samt att jag la in en knapp för att komma "hem" till landing page. 
+Länkade in "Applied.html" in i Formen så man skickas dit efter att klicka submit. 
+Hade dock stora problem här då jag hade förinställt form action="#". Detta gjorde att det var omäjligt för mig att skriva en onclick kod i JS som länkade till sidan. 
+Hitta lösning till problemet efter några timmar och la in Applid.html direkt i form action "". 
+Sedan länkade jag Apllied.html "Hem" knapp tillbaka till orginal landing page. 
+Detta vart också problematsik då jag skrev js koden i samma JS dock som jag använda till Landing page. Insåg att koden kockade med varandra och valde sedan att bara lägga in dem två JS kod raderna direkt i Applid.html filen. 
+
+Sedan skapade jag också en JS kod i Landing page som gjorde en "scrollIntoView(true) som gjorde att man automatiskt scrollades ner till formen som blir synlig efter ett klick på "ansök" knappen. 

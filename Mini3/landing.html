@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KYH Front End Developer</title>
+	<link rel="stylesheet" type="text/css" href="landing.css">
+	<link rel="icon" href="KYH-logo.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+ <div class="background">
+
+     <div class="info">
+	<h1>Front End Developer</h1>
+	<p class="amount">Antal ansökningar <br> <span id="add">20</span></p>
+	<a id="applybutton" class="applybutton" >Ansök!</a>
+	</div>
+
+	
+	
+ </div>
+
+ <div class="content2">
+	
+ <div class="bilder">
+	 <div>
+	 <img src="peter.png" alt="peter">
+	 <p>PETER <br>Verksamhetsansvarig Stockholm</p>
+	 <i class="far fa-envelope"></i>
+	</div>
+	 
+	<div class="sofia">
+	 <img src="sofia.png" alt="sofia">
+	 <p>SOFIA <br>Karriär- och studiesamordnare</p>
+	 <i class="far fa-envelope"></i>
+	</div>
+
+	<div>
+	 <img src="magnus.png" alt="magnus">
+	 <p>MAGNUS <br> Utbildningsledare Stockholm </p>
+	<i class="far fa-envelope"></i>
+	</div>
+	
+ </div>
+ 
+ 
+
+</div>
+<div class="form formGone" id="form">
+		<form action="./applied.html">
+				<input type="text" name="field1" placeholder="Your Name" required>
+				<input type="email" name="field2" placeholder="Email Address" required>
+				<textarea name="field3" placeholder="Type Your Application Here" ></textarea>
+				<input type="radio" name="gender" value="male"> Male<br>
+				<input type="radio" name="gender" value="female"> Female<br>
+				<input type="radio" name="gender" value="other"> Other <br>
+				<br>
+				<input type="number" id="age" placeholder="Age"required> <br>
+				<br>
+
+				<label>CV:</label><br>
+                <input type="file" name="avatar" accept="image/png, image/jpeg" />  
+
+
+				<input type="submit" id="submit"><br>
+				<input type="checkbox"required> <span>GDPR Approval</span><br>
+
+				
+				
+		</form>
+</div>
+
+    <footer>
+			<p>© 2018 KYH</p>
+			<ul>
+				<li>Terms</li>
+				<li>Blog</li>
+				<li>About</li>
+			</ul>
+	</footer>
+
+ </div>
+<script type="text/javascript" src="landing.js"></script>
+</body>
+</html>
